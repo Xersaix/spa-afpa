@@ -1,10 +1,4 @@
-// Initialization for ES Users
-import {
-    Toast,
-    initTE,
-  } from "tw-elements";
-  
-  initTE({ Toast });
+
 
 var close_succes = document.getElementById("close-succes");
 var close_fail = document.getElementById("close-fail");

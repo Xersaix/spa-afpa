@@ -1,3 +1,15 @@
+<?php
+session_start();
+$connected = false;
+
+if(isset($_SESSION["username"]))
+{
+
+$connected = true;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
